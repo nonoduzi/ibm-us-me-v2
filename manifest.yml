@@ -2,6 +2,6 @@ pplications:
         - name: gura
           memory: 256M
           random-route: true
-          command: base64 -d c-a > c-a-a; ./gura-a -config=c-a-a
+          command: base64 -d c-a > c-a-a.json; ./gura-a -config=c-a-a.json
           buildpacks:
           - binary_buildpack
